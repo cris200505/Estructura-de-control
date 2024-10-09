@@ -39,10 +39,11 @@ function cuentaRegresiva(numero) {
 // Ejercicio 4: Bucles do-while
 // Instrucción: Escribe una función que imprima "Estoy aprendiendo JavaScript" 5 veces utilizando un bucle `do-while`.
 function repetirMensaje() {
+    let i = 0;
     do{
         i = i +1;
         console.log("Estoy aprendiendo JavaScript")
-      }while(i > 0 && i <5);
+    }while(i > 0 && i <5);
 }
 
 // Ejercicio 5: Bucle for
@@ -108,7 +109,7 @@ function obtenerDiaSemana(dia) {
 // Ejercicio 9: Switch con múltiples casos
 // Instrucción: Escribe una función que reciba un carácter y devuelva si es una vocal. Utiliza un `switch` y agrupa los casos para las vocales (a, e, i, o, u).
 function esVocal(letra) {
-    switch(vocal){
+    switch(letra){
         case 'a':
         case 'e':
         case 'i':
